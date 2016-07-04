@@ -62,4 +62,7 @@ public class LoginActivity extends Activity implements OnClickListener {
 		Intent intent = new Intent(LoginActivity.this,IndexActivity.class);
 		startActivity(intent);
 	}
+	private void checkApkVersion(){
+		
+	}
 }
