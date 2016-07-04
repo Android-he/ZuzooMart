@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- 常用色 -->
+    <color name="white">#fff</color>
+     <!-- 标题栏颜色 -->
+    <color name="color_bg_title">#f47700</color>
+     <!-- 灰背景色 -->
+    <color name="color_bg_main">#EAEAEA</color>
+    
+</resources>
