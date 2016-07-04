@@ -1,0 +1,270 @@
+<resources>
+    <dimen name="goods_list_item_in_basket_num_margintop">8px</dimen>
+    <dimen name="goods_list_item_in_basket_num_marginright">6px</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 首页顶部工具条 -->
+    <dimen name="portal_top_tools_height">100dp</dimen>
+    <dimen name="portal_top_tools_menu_icon_width">50dp</dimen>
+    <dimen name="portal_top_tools_menu_icon_height">100dp</dimen>
+    <dimen name="portal_top_tools_tv_marginleft">6dp</dimen>
+    <dimen name="portal_top_tools_tv_marginright">3dp</dimen>
+    <dimen name="portal_top_tools_tv_textsize">32dp</dimen>
+    <dimen name="portal_top_tools_tv_middle_textsize">36dp</dimen>
+    <dimen name="portal_top_tools_tv_right_textsize">34dp</dimen>
+    <dimen name="portal_top_tools_search_height">64dp</dimen>
+    <dimen name="portal_top_tools_search_marginleft">10dp</dimen>
+    <dimen name="portal_top_tools_search_marginright">3dp</dimen>
+    <dimen name="portal_top_tools_search_icon_width">60dp</dimen>
+    <dimen name="portal_top_tools_search_icon_height">60dp</dimen>
+    <dimen name="portal_top_tools_search_tv_textsize">28dp</dimen>
+    <dimen name="portal_top_tools_shop_basket_width">90dp</dimen>
+    <dimen name="portal_top_tools_shop_basket_height">90dp</dimen>
+    <dimen name="portal_top_tools_shop_basket_num_width">32dp</dimen>
+    <dimen name="portal_top_tools_shop_basket_num_height">32dp</dimen>
+    <dimen name="portal_top_tools_shop_basket_num_textsize">20dp</dimen>
+
+    <!-- 切换的广告图 -->
+    <dimen name="portal_vp_poster_height">300dp</dimen>
+    <dimen name="portal_vp_poster_points_width">10dp</dimen>
+    <dimen name="portal_vp_poster_points_margin">6dp</dimen>
+
+    <!-- 分类区域 -->
+    <dimen name="portal_categories_item_margintop_0">40dp</dimen>
+    <dimen name="portal_categories_item_marginbottom">20dp</dimen>
+    <dimen name="portal_categories_item_circle_width">80dp</dimen>
+    <dimen name="portal_categories_item_circle_height">80dp</dimen>
+    <dimen name="portal_categories_item_des_textsize">32dp</dimen>
+
+    <!-- 今日推荐 -->
+    <dimen name="portal_today_recommend_margintop">20dp</dimen>
+    <dimen name="portal_today_recommend_icon_width">307dp</dimen>
+    <dimen name="portal_today_recommend_icon_height">123dp</dimen>
+    <dimen name="portal_today_recommend_title_textsize">43dp</dimen>
+    <dimen name="portal_today_recommend_more_textsize">35dp</dimen>
+    <dimen name="portal_today_recommend_arrow_width">50dp</dimen>
+    <dimen name="portal_today_recommend_arrow_height">50dp</dimen>
+    <dimen name="portal_today_recommend_tag_width">70dp</dimen>
+    <dimen name="portal_today_recommend_tag_height">70dp</dimen>
+    <dimen name="portal_today_recommend_tag_sold_out_width">120dp</dimen>
+    <dimen name="portal_today_recommend_tag_sold_out_height">120dp</dimen>
+
+    <dimen name="portal_bottom_tab_line_height">1dp</dimen>
+    <dimen name="portal_bottom_tab_height">110dp</dimen>
+    <dimen name="portal_bottom_tab_paddingtop">10dp</dimen>
+    <dimen name="portal_bottom_tab_paddingbottom">10dp</dimen>
+    <dimen name="portal_bottom_tab_textsize">22dp</dimen>
+    
+    <!-- portal_item_0 -->
+    <dimen name="portal_item_0_height">480px</dimen>
+    <dimen name="portal_item_0_pic_width">239dp</dimen>
+    <dimen name="portal_item_0_pic_height">239dp</dimen>
+    <dimen name="portal_item_0_tv_margintop">20dp</dimen>
+
+    <!-- portal_item_1 -->
+    <dimen name="portal_item_1_height0">180dp</dimen>
+    <dimen name="portal_item_1_width1">360dp</dimen>
+    <dimen name="portal_item_1_height1">360dp</dimen>
+    <dimen name="portal_item_1_margin">1dp</dimen>
+    <dimen name="portal_item_1_margin_top">4dp</dimen>
+    <dimen name="portal_item_1_price_textsize">35dp</dimen>
+    <dimen name="portal_item_1_price_previous_textsize">31dp</dimen>
+    <dimen name="portal_item_1_price_previous_margintop">14dp</dimen>
+    <dimen name="portal_item_1_price_previous_marginbottom">20dp</dimen>
+
+    <!-- protal_item_2 -->
+    <dimen name="portal_item_2_width">714dp</dimen>
+    <dimen name="portal_item_2_height">300dp</dimen>
+    <dimen name="portal_item_2_margin">3dp</dimen>
+    <dimen name="portal_item_2_discount_width">107dp</dimen>
+    <dimen name="portal_item_2_discount_height">54dp</dimen>
+    <dimen name="portal_item_2_paddingleft">7dp</dimen>
+    <dimen name="portal_item_2_paddingright">7dp</dimen>
+
+    <!-- goods_list -->
+    <dimen name="goods_list_top_height">80dp</dimen>
+    <dimen name="goods_list_item_spacing">4dp</dimen>
+    <dimen name="goods_list_item_pic_width">237.3dp</dimen>
+    <dimen name="goods_list_item_pic_height">237.3dp</dimen>
+    <dimen name="goods_list_item_des_textsize">28dp</dimen>
+    <dimen name="goods_list_item_price_red_textsize">36dp</dimen>
+    <dimen name="goods_list_item_price_textsize">26dp</dimen>
+    <dimen name="goods_list_trade_style_left_gridview_width">530dp</dimen>
+    <dimen name="goods_list_trade_style_left_gridview_item_pic_width">265dp</dimen>
+
+    <!-- my spinner -->
+    <dimen name="mspinner_iv_marginright">6.7dp</dimen>
+    <dimen name="mspinner_tv_marginleft">13.3dp</dimen>
+    <dimen name="mspinner_textsize">32dp</dimen>
+    <dimen name="mspinner_pw_lv_divider_height">6.7dp</dimen>
+    <dimen name="mspinner_pw_lv_paddingleft">6.7dp</dimen>
+    <dimen name="mspinner_pw_lv_paddingtop">6.7dp</dimen>
+    <dimen name="mspinner_pw_lv_paddingright">6.7dp</dimen>
+    <dimen name="mspinner_pw_lv_paddingbottom">6.7dp</dimen>
+    <dimen name="mspinner_pw_lv_scrollbar_size">6.7dp</dimen>
+    <dimen name="mspinner_list_item_textsize">37.3dp</dimen>
+    <dimen name="mspinner_list_item_tv1_height">80dp</dimen>
+    <dimen name="mspinner_list_item_tv1_textsize">32dp</dimen>
+
+    <!-- select area -->
+    <dimen name="select_area_top_mspinner_width">240dp</dimen>
+    <dimen name="select_area_search_height">80dp</dimen>
+    <dimen name="select_area_search_margin_bottom">20dp</dimen>
+    <dimen name="select_area_search_margin_left">30dp</dimen>
+    <dimen name="select_area_search_margin_right">30dp</dimen>
+    <dimen name="select_area_search_margin_top">20dp</dimen>
+    <dimen name="select_area_search_icon_widht">60dp</dimen>
+    <dimen name="select_area_search_icon_height">60dp</dimen>
+    <dimen name="select_area_search_icon_marginleft">10dp</dimen>
+    <dimen name="select_area_search_et_marginleft">80dp</dimen>
+    <dimen name="select_area_listview_left">240dp</dimen>
+    <dimen name="select_area_listview_left_divider_height">1dp</dimen>
+    <dimen name="select_area_listview_left_item_paddingtop">20dp</dimen>
+    <dimen name="select_area_listview_left_item_paddingbottom">20dp</dimen>
+    
+    <dimen name="search_activity_hot_search_layout_margintop">12dp</dimen>
+	<dimen name="search_activity_hot_search_layout_marginleft">14dp</dimen>
+	<dimen name="search_activity_hot_search_layout_marginright">14dp</dimen>
+	<dimen name="search_activity_hot_search_layout_marginbottom">14dp</dimen>
+	<dimen name="search_activity_hot_search_tv_height">80dp</dimen>
+	<dimen name="search_activity_hot_search_tv_textsize">32dp</dimen>
+	<dimen name="search_activity_history_ll_height">90dp</dimen>
+	<dimen name="search_activity_history_icon_width">76dp</dimen>
+	<dimen name="search_activity_history_icon_height">76dp</dimen>
+	<dimen name="search_activity_history_tv_textsize">32dp</dimen>
+	<dimen name="search_activity_history_clear_tv_textsize">36dp</dimen>
+
+    <!-- order create -->
+    <dimen name="order_create_item_height">120dp</dimen>
+    <dimen name="order_create_item_height_1">80dp</dimen>
+    <dimen name="order_create_item_paddingleft_0">30dp</dimen>
+    <dimen name="order_create_item_paddingright_0">30dp</dimen>
+    <dimen name="order_create_item_et_padding">10dp</dimen>
+    <dimen name="order_create_item_et_marginleft">10dp</dimen>
+    <dimen name="order_create_item_et_marginright">10dp</dimen>
+    <dimen name="order_create_item_textsize">40dp</dimen>
+    <dimen name="order_create_item_textsize_1">30dp</dimen>
+    <dimen name="order_create_item_margintop">80dp</dimen>
+    <dimen name="order_create_item_paddingbottom">30dp</dimen>
+
+    <!-- activity_login -->
+    <dimen name="activity_login_edittext_height">90dp</dimen>
+    <dimen name="activity_login_edittext_paddingleft">73.34dp</dimen>
+    <dimen name="activity_login_edittext_paddingright">73.34dp</dimen>
+    <dimen name="activity_login_edittext_text_size">32dp</dimen>
+
+    <!-- toast -->
+    <dimen name="toast_height">86.67dp</dimen>
+    <dimen name="toast_text_size">30dp</dimen>
+
+    <!-- shopping cart -->
+    <dimen name="shopping_cart_lv_marginleft">13.3dp</dimen>
+    <dimen name="shopping_cart_lv_marginright">13.3dp</dimen>
+    <dimen name="shopping_cart_lv_divider_height">1dp</dimen>
+    <dimen name="shopping_cart_bottom_rl_paddingtop">20dp</dimen>
+    <dimen name="shopping_cart_bottom_rl_paddingbottom">20dp</dimen>
+    <dimen name="shopping_cart_bottom_rl_paddingleft">26.7dp</dimen>
+    <dimen name="shopping_cart_bottom_rl_paddingright">26.7dp</dimen>
+    <dimen name="shopping_cart_check_all_width">66.7dp</dimen>
+    <dimen name="shopping_cart_check_all_height">66.7dp</dimen>
+    <dimen name="shopping_cart_weight_tag_width">40dp</dimen>
+    <dimen name="shopping_cart_weight_tag_height">40dp</dimen>
+    <dimen name="shopping_cart_lv_item_paddingtop">20dp</dimen>
+    <dimen name="shopping_cart_lv_item_paddingbottom">20dp</dimen>
+    <dimen name="shopping_cart_lv_item_check_width">66.7dp</dimen>
+    <dimen name="shopping_cart_lv_item_check_height">66.7dp</dimen>
+    <dimen name="shopping_cart_lv_item_check_marginright">20dp</dimen>
+    <dimen name="shopping_cart_lv_item_icon_width">86.7dp</dimen>
+    <dimen name="shopping_cart_lv_item_icon_height">86.7dp</dimen>
+    <dimen name="shopping_cart_lv_item_icon_marginright">20dp</dimen>
+    <dimen name="shopping_cart_lv_item_name_textsize">28dp</dimen>
+    <dimen name="shopping_cart_lv_item_subtract_width">66.7dp</dimen>
+    <dimen name="shopping_cart_lv_item_subtract_height">66.7dp</dimen>
+    <dimen name="shopping_cart_lv_item_count_unit_textsize">28dp</dimen>
+    <dimen name="shopping_cart_lv_item_price_textsize">28dp</dimen>
+    <dimen name="shopping_cart_lv_item_price_by_weight_textsize">28dp</dimen>
+    <dimen name="choose_date_dialog_width">600dp</dimen>
+    <dimen name="choose_date_dialog_height">900dp</dimen>
+    <dimen name="choose_date_dialog_padding">6dp</dimen>
+    <dimen name="choose_date_dialog_title_height">100dp</dimen>
+    <dimen name="choose_date_dialog_title_tab_height">90dp</dimen>
+    <dimen name="choose_date_dialog_title_tab_textsize">30dp</dimen>
+    <dimen name="choose_date_dialog_bottom_height">80dp</dimen>
+
+    <!-- 设置 -->
+    <dimen name="main_title_margin_left_right">10dp</dimen>
+    <dimen name="main_title_txt_size">20dp</dimen>
+    <dimen name="setting_item_height">60dp</dimen>
+    <dimen name="setting_space_height">15dp</dimen>
+    <dimen name="personal_margin_left_right">15dp</dimen>
+    <dimen name="personal_arrow_right_size">15dp</dimen>
+    <dimen name="setting_txt_size">20dp</dimen>
+    <dimen name="setting_sub_title_txt_size">15dp</dimen>
+    <dimen name="setting_sub_margin_bottom">4dp</dimen>
+    <dimen name="manage_appupdate_bottombtn_marginbottom">10dp</dimen>
+
+    <!-- about.xml -->
+    <dimen name="about_bg_image_width">54dp</dimen>
+    <dimen name="about_bg_image_heigh">54dp</dimen>
+    <dimen name="about_text_version_margin_top">4dp</dimen>
+    <dimen name="about_text_copyright_margin_bottom">20dp</dimen>
+    <dimen name="about_text_disclaimer_margin_bottom">6dp</dimen>
+    <!-- detail -->
+    <dimen name="detail_menu_size">40dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_300">300dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_100">100dip</dimen>
+    <dimen name="dimen_200">200dip</dimen>
+    <dimen name="dimen_50">50dip</dimen>
+    <dimen name="dimen_25">25dip</dimen>
+    <dimen name="dimen_70">70dip</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="dimen_145">145dp</dimen>
+
+    <!-- exitdialog.xml -->
+    <dimen name="exitdialog_commondialog_title_size">50dp</dimen>
+    <dimen name="exitdialog_commondialog_message_padding_bottom">24dp</dimen>
+    <dimen name="exitdialog_commondialog_message_padding_left">13.34dp</dimen>
+    <dimen name="exitdialog_commondialog_message_padding_right">13.34dp</dimen>
+    <dimen name="exitdialog_commondialog_message_padding_top">13.34dp</dimen>
+    <dimen name="exitdialog_button_heigh">40dp</dimen>
+    <dimen name="exitdialog_linearlayout0_margin_bottom">24dp</dimen>
+    <dimen name="commondialog_image_height">1dp</dimen>
+    <dimen name="commondialog_button_width">125dp</dimen>
+    <dimen name="common_loading_size">66.67dip</dimen>
+    <dimen name="common_loading_text_margin_top">66.67dip</dimen>
+    <dimen name="main_loading_text_size">24dip</dimen>
+
+    <!-- disclaimer.xml -->
+
+    <dimen name="disclaimer_disclaimer_content_text_margin_left">12dp</dimen>
+    <dimen name="disclaimer_disclaimer_content_text_padding_right">3dp</dimen>
+    <dimen name="disclaimer_disclaimer_content_text_margin_right">3dp</dimen>
+    <dimen name="disclaimer_textlinespace">10dp</dimen>
+    <dimen name="disclaimer_disclaimer_content_text_scrollbarSize">4.5dp</dimen>
+    <dimen name="disclaimer_content_textsize">16dp</dimen>
+    
+    <!-- gdActionBarEmpty.xml -->
+    <dimen name="gdActionBarTitleSize">32px</dimen>
+    
+    <!-- 微信支付 -->
+     <dimen name="LargeTextSize">16dp</dimen>
+    <dimen name="BasicTextSize">15dp</dimen>
+    <dimen name="TitleTextSize">18dp</dimen>
+    <dimen name="SmallTextSize">14dp</dimen>
+    <dimen name="SmallerTextSize">13dp</dimen>
+    <dimen name="LargestTextSize">30dp</dimen>
+    <dimen name="ChattingTextSize">16dp</dimen>
+    <dimen name="ChattingContentMinHeight">49dp</dimen>
+    <dimen name="PreferenceItemHeight">42dp</dimen>
+    <dimen name="ConversationItemHeight">58dp</dimen>
+    <dimen name="LargeAvatarSize">56dp</dimen>
+
+</resources>

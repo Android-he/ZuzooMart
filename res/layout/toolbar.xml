@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/height_toolbar"
+    android:layout_height="50dp"
     android:background="@color/color_bg_title" >
 
     <ImageButton
@@ -23,7 +23,7 @@
         android:gravity="center"
         android:text="@string/app_name"
         android:textColor="@color/white"
-        android:textSize="@dimen/toolbar_title_size" />
+        android:textSize="18sp" />
 
     <ImageButton
         android:id="@+id/btn_toolbar_home"
@@ -31,8 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:layout_marginRight="@dimen/margin_activity_login_copyright"
-        android:layout_marginEnd="@dimen/margin_activity_login_copyright"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/icon_home"
         android:visibility="gone"/>
 

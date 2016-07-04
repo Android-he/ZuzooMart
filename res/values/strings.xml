@@ -18,4 +18,592 @@
 	<string name="phone_for_get_code">此手机号用来接收验证码，请仔细填写</string>
 	<string name="next">下一步</string>
 	
+	
+    <string name="gd_go_home">Go home</string>
+	<string name="gd_search">Search</string>
+	<string name="gd_talk">Talk</string>
+	<string name="gd_compose">Compose</string>
+	<string name="gd_export">Export</string>
+	<string name="gd_share">Share</string>
+	<string name="gd_refresh">Refresh</string>
+	<string name="gd_take_photo">Take photo</string>
+	<string name="gd_locate">Locate</string>
+	<string name="gd_edit">Edit</string>
+	<string name="gd_add">Add</string>
+	<string name="gd_star">Star</string>
+	<string name="gd_sort_by_size">Sort by size</string>
+	<string name="gd_sort_alpha">Sort alphabetically</string>
+	<string name="gd_locate_myself">Locate myself</string>
+	<string name="gd_compass">Compass</string>
+	<string name="gd_help">Help</string>
+	<string name="gd_info">Info</string>
+	<string name="gd_settings">Settings</string>
+	<string name="gd_list">List</string>
+	<string name="gd_trashcan">Delete</string>
+	<string name="gd_eye">See</string>
+	<string name="gd_all_friends">All friends</string>
+	<string name="gd_group">Group</string>
+	<string name="gd_gallery">Gallery</string>
+	<string name="gd_slideshow">Slideshow</string>
+	<string name="gd_mail">Mail</string>
+	<string name="gd_back">Back</string>
+	<string name="gd_cart">Cart</string>
+	<string name="open_time">营业时间</string>
+    <string name="minus_price">起送价格</string>
+    <string name="ledgement">--</string>
+    <string name="select_cvs_tip">请选择店铺</string>
+
+
+    <!-- Strings related to login -->
+    <string name="dialog_message_title">提示</string>
+    <string name="activity_login_input_user_name">请输入您的手机号</string>
+    <string name="activity_login_input_user_password">请输入您的密码</string>
+    <string name="activity_login_input_user_password_ensure">请确认您的密码</string>
+    <string name="activity_login_input_user_password_new">请输入您的新密码</string>
+    <string name="activity_login_input_user_password_ensure_new">请确认您的新密码</string>
+    <string name="activity_login_input_user_verification_code">请输入您收到的验证码</string>
+    <string name="activity_login_login">登录</string>
+    <string name="activity_login_new_user_register">新用户注册</string>
+    <string name="activity_login_new_user_register_recommend">请输入推荐码（选填）</string>
+    <string name="activity_login_new_user_register_recommend_prompt">注:如有推荐人,可输入推荐人账号;没有则不用输入。</string>
+    <string name="activity_login_forget_password">忘记密码？</string>
+    <string name="activity_login_find_password">找回密码</string>
+    <string name="activity_login_register_next_step">下一步</string>
+    <string name="activity_login_register_ensure">确定</string>
+    <string name="activity_login_register_phone_registered">手机号码已注册</string>
+    <string name="activity_login_register_phone_not_registered">该手机号码尚未注册</string>
+    <string name="activity_login_register_check_phone_error">检测手机号码时出现错误，请重试</string>
+    <string name="activity_login_register_input_verification_code">请输入验证码</string>
+    <string name="activity_login_register_verification_code_error">验证码验证失败</string>
+    <string name="activity_login_register_password_not_equal">两次输入的密码不相同</string>
+    <string name="activity_login_register_register_successful">恭喜您，注册成功！</string>
+    <string name="activity_login_register_register_failed">注册失败</string>
+    <string name="activity_login_retrieve_verification_code_count_down">%1$d秒后重新获取验证码</string>
+    <string name="activity_login_retrieve_verification_code">获取验证码</string>
+    <string name="activity_login_retrieve_error_phone">请输入正确的手机号码</string>
+    <string name="activity_login_retrieve_error_phone_recommend">请输入正确的推荐人账号</string>
+    <string name="activity_login_retrieve_error_password">密码应包含至少6个字母或数字</string>
+    <string name="activity_login_forgot_password_modify_error">密码修改失败</string>
+    <string name="activity_login_login_successful">登录成功</string>
+    <string name="activity_login_login_failed">登录失败</string>
+    <string name="activity_login_login_account_error">用户名或密码错误</string>
+    <string name="error_register_email_repeat">邮箱已被注册，请更换邮箱</string>
+    <string name="error_register_email_invalid">E-mai地址错误</string>
+    <string name="tab_saling">全部</string>
+    <string name="tab_off_shelf">待付款</string>
+    <string name="tab_style">待发货</string>
+     <string name="tab_style_done">待收货</string>
+    <string name="more">更多</string>
+    <!-- reside menu -->
+    <string name="menu_order">我的订单</string>
+    <string name="menu_message">我的消息</string>
+    <string name="menu_fav">我的收藏</string>
+    <string name="menu_comment">评价和反馈</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_address">地址管理</string>
+    <string name="menu_address_add">地址添加</string>
+    <string name="menu_address_edit">地址编辑</string>
+    <string name="menu_myinfo">我的账号</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_title_save_gprs">消息通知设置</string>
+    <string name="settings_download_only_wifi">接收推送消息</string>
+    <string name="settings_no_pic">通知提示音</string>
+    <string name="settings_title_save_disk">缓存设置</string>
+    <string name="settings_auto_delete_apk">清理缓存</string>
+    <string name="settings_notify_game_app">收货地址管理</string>
+    <string name="settings_check_update">服务和承诺</string>
+    <string name="settings_about_app">关于</string>
+    <string name="settings_logout">退出登录</string>
+    <string name="settings_wifi_hint">客服热线：%1$s</string>
+    <string name="main_exit_tip">再按一次退出绿蚂蚁</string>
+
+    <!-- about -->
+    <string name="about_copyright">绿蚂蚁@2015#82112099</string>
+    <string name="about_disclaimer">服务和承诺</string>
+    <string name="versionCode">版本号：</string>
+    <string name="about_funcdesc">功能介绍</string>
+    <string name="about_checkupdate">检查版本更新</string>
+    <string name="about_disclaimer_text">\t\t\t绿蚂蚁致力于打造中国最快的社区生活服务平台，提供生鲜、蔬菜、水果、肉类、生活用品和药品销售，商品提供送货上门和自提点自提等方式，让您轻松享受便捷、全面的社区生活服务。\n
+\t\t\t绿蚂蚁承诺提供安全、健康、快速的服务体验，让您的工作和生活更加轻松惬意。</string>
+    
+    <!-- address -->
+    <string name="add">添加</string>
+    <string name="modify">修改</string>
+    <string name="name">收件人名称：</string>
+    <string name="mobile">收件人电话：</string>
+    <string name="uptown">小区：</string>
+    <string name="door">具体门牌号：</string>
+    <string name="success">成功</string>
+    <string name="failed">失败</string>
+    <string name="failed_hint">请检查相关输入的字段，以输入的信息为配送信息，不能为空！</string>
+    <string-array name="address_click_menus">
+        <item>设置为默认</item>
+        <item>修改</item>
+        <item>删除</item>
+    </string-array>
+    <string name="failed_add_address">您添加的地址已经很多，请在不经常使用的地址上进行修改。</string>
+    <string name="noAddressHint">您还没有添加过地址</string>
+    <string name="noFavHint">您还没有收藏过商品</string>
+    <string name="noMsgHint">暂没收到消息</string>
+    <string name="noOrderListHint">暂无相关订单</string>
+    
+    <!-- detail -->
+    <string name="detailtitle">商品详情</string>
+    <string name="detailaddresstitle">当前位置：</string>
+    <string name="detailaddresschange">切换</string>
+    <string name="goods_list">商品列表</string>
+    <string name="goods_list_sales_volume">销量</string>
+    <string name="goods_list_price">价格</string>
+    <string name="goods_list_new">上新</string>
+    <string name="goods_list_category">分类</string>
+    <string name="goods_list_no_goods">暂无商品</string>
+    <string name="goods_detail_hint">如有任何疑问，欢迎咨询客服.</string>
+    <string name="goods_detail_call_hint">联系客服：</string>
+    <string name="goods_detail_no">暂无商品详情</string>
+    <string name="no_network_hint">暂无网络，请检查网络设置</string>
+    
+    <string-array name="detail_menus">
+        <item>收藏</item>
+        <item>分享</item>
+        <item>返回首页</item>
+    </string-array>
+    <string name="goods_detail_desc">此商品为需要称重类商品，根据实际称重计算价格，请留意订单的实际称重情况。</string>
+    <string name="goods_detail_jin">斤</string>
+    <string name="goods_detail_addcart">添加到购物车</string>
+    <string name="goods_detail_addcart_already">已添加到购物车</string>
+    <string name="goods_detail_addcart_modify">修改购买数量</string>
+    <string name="goods_detail_fav_success">收藏成功</string>
+    <string name="goods_detail_fav_failed">收藏失败</string>
+    <string name="goods_detail_fav_cancel">确定要取消收藏%1$s？</string>
+    <string name="goods_detail_fav_cancelsuccess">取消收藏成功</string>
+    <string name="goods_detail_fav_cancelfailed">取消收藏失败</string>
+    
+    <string name="choose_city">其他城市</string>
+    <string name="search_goods_name">搜索:商品名称、类型</string>
+    <string name="shopping_cart">购物车</string>
+    <string name="price_by_weight">称重计价</string>
+    <string name="total_money">总金额：</string>
+    <string name="appointment">预约</string>
+    <string name="settlement">结算</string>
+    <string name="discount">折</string>
+    <string name="buyed_people_count">人买过</string>
+    <string name="wait_weight">等待称重</string>
+    <string name="tomorrow">明天</string>
+    <string name="today">今天</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="select_area_search">搜索</string>
+    <string name="select_area_search_search_your_receiver_uptown">搜索您的收货小区</string>
+    <string name="select_area_search_prompt_input_your_uptown">输入您要搜索的小区</string>
+    <string name="select_area_search_prompt_no_uptown">没有搜索到您的小区</string>
+    <string name="select_area_search_prompt_load_data_error">数据加载失败</string>
+    <string name="market_price">市场价 : </string>
+    <string name="store_close_prompt_1">以下商品今天尚未营业，请预约配送时间</string>
+    <string name="store_close_prompt_2">以下商品今天已休市，请预约配送时间</string>
+    <string name="sold_out_prompt">以下商品已售罄，请预约明天购买</string>
+    <string name="off_shelf_prompt">以下商品已下架，暂时不支持配送</string>
+    <string name="shopping_cart_please_choose_goods_first">请先选择您要购买的商品</string>
+    <string name="shopping_cart_goods_partly_store_close">您选择的部分商品已休市，需要明天送达</string>
+    <string name="shopping_cart_out_of_send_time">当前时间不能即时配送</string>
+    
+    <string name="order_ensure">订单确认</string>
+    <string name="order_ensure_receiver_info">收货人信息</string>
+    <string name="order_ensure_modify">修改</string>
+    <string name="order_ensure_receiver">收货人 : </string>
+    <string name="order_ensure_phone">手机 : </string>
+    <string name="order_ensure_address">地址 : </string>
+    <string name="order_ensure_custom_remark">订单备注</string>
+    <string name="order_ensure_custom_remark_hint">如果您有要补充说明的，请给我们留言</string>
+    <string name="order_ensure_pay_and_send_info">支付和配送信息</string>
+    <string name="order_ensure_pay_method">支付方式:</string>
+    <string name="order_ensure_pay_method_cash_on_delivery">货到付款</string>
+    <string name="order_ensure_pay_method_pay_online">在线支付</string>
+<!--     <string name="order_ensure_receiver_info">收件人信息</string> -->
+    <string name="order_ensure_receiver_tel"> 电话:</string>
+    <string name="order_ensure_receiver_addr"> 地址:</string>
+    <string name="order_ensure_receiver_name"> 姓名:</string>
+    <string name="order_ensure_send_time">送货时间:</string>
+    <string name="order_ensure_send_method">送货方式:</string>
+    <string name="order_ensure_send_metho_ziting">自提</string>
+    <string name="order_ensure_send_metho_ziting_dian">自提点</string>
+    <string name="order_ensure_send_method_songhuoshangmen">送货上门</string>
+    <string name="order_ensure_send_time_right_now">即时</string>
+    <string name="order_ensure_settlement_info">结算信息</string>
+    <string name="order_ensure_goods_money">商品金额</string>
+    <string name="order_ensure_freight">运费:</string>
+    <string name="order_ensure_youhui">优惠金额:</string>
+    <string name="order_minus_price">优惠金额:</string>
+    <string name="order_ensure_should_pay_money">应付总金额:</string>
+    <string name="order_ensure_order_commit_ensure_prompt">确定要提交该订单吗？</string>
+    <string name="order_ensure_order_commit_prompt">提示</string>
+    <string name="order_ensure_order_commit_failed">提交订单失败</string>
+    <string name="order_ensure_order_commit_part_failed">部分商品提交订单失败</string>
+    <string name="order_ensure_receiver_info_error">收货人信息填写不完全</string>
+    <string name="order_ensure_youhui_prompt">首单满%1$s减%2$s元</string>
+    
+    <string name="search_activity_input_search_content">请输入您要搜索的商品名称</string>
+    <string name="search_activity_no_search_result">没有搜索到您想要的商品</string>
+    <string name="search_activity_search_goods_you_want">搜索您想要的商品</string>
+    <string name="search_activity_please_wait">正在搜索，请稍等...</string>
+    <string name="search_activity_hot_search">热搜</string>
+    <string name="search_activity_clear_search_history">清空搜索历史</string>
+    
+    <string name="shopping_cart_edit">编辑</string>
+    <string name="shopping_cart_edit_cancel">取消编辑</string>
+    <string name="shopping_cart_edit_delete">删除</string>
+    <string name="shopping_cart_data_load_error">数据加载失败</string>
+    <string name="shopping_cart_no_goods">购物车暂无商品</string>
+    <string name="shopping_cart_out_of_stock">已超过库存</string>
+    <string name="shopping_cart_start_cost_prompt">本店免费起送价格%1$s元，您此次订单金额不足，需收取部分运费。</string>
+    
+    <string name="reside_menu_layout_left_login">登录</string>
+    <string name="reside_menu_layout_left_receiver_uptown">收货小区：</string>
+    <string name="reside_menu_layout_left_phone">热线电话:</string>
+    <string name="reside_menu_layout_left_company">天津绿蚂蚁科技有限公司</string>
+    
+    <string name="evaluation_feedback_propmt">将您的意见和建议反馈给我们吧，我们会努力改进的~</string>
+    <string name="evaluation_feedback_propmt_email">输入您的邮箱（选填）</string>
+    <string name="evaluation_feedback_commit">提交</string>
+    <string name="evaluation_feedback_no_content">您还没有填写您的意见呢~</string>
+    <string name="evaluation_feedback_email_format_error">您填写的邮箱格式不正确~</string>
+    <string name="evaluation_feedback_commiting">正在提交，请稍等...</string>
+    <string name="evaluation_feedback_committed">你的意见已提交~</string>
+    <string name="evaluation_feedback_committed_failed">提交失败了~</string>
+    
+    <string name="portal_data_load_error">数据加载失败</string>
+    
+    <!-- dialog -->
+    <string name="common_ok">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_title">提示</string>
+    <string name="main_laoding_tip">正在处理...</string>
+    
+    <!-- orders -->
+    <string-array name="order_status_code">
+        <item>未配送</item>
+        <item>已配送</item>
+        <item>已配送至自提点</item>
+        <item>已签收</item>
+        <item>待付款</item>
+        <item>待收货</item>
+        <item>退款中</item>
+        <item>已退款</item>
+        <item>已完成</item>
+        <item>已称重</item>
+        <item>同意退款</item>
+        <item>已取消</item>
+        <item>已关闭</item>
+        <item>待称重</item>
+    </string-array>
+    <string name="order_status_code_0">待付款</string>
+    <string name="order_status_code_1">已付款，待发货</string>
+    <string name="order_status_code_2">已发货</string>
+    <string name="order_status_code_3">已配送至自提点</string>
+    <string name="order_status_code_4">已签收</string>
+    <string name="order_status_code_5">待付款</string>
+    <string name="order_status_code_6">已称重，待付款</string>
+    <string name="order_status_code_7">已付款</string>
+    <string name="order_status_code_8">待称重</string>
+
+    <string name="button_order_cancel">取消订单</string>
+    <string name="button_order_close">关闭订单</string>
+    <string name="button_order_paycontinue">继续支付</string>
+    <string name="button_order_confirm">确认收货</string>
+    <string name="button_order_return">申请退款</string>
+    <string name="button_order_hurry">催促发货</string>
+    <string name="button_order_totalnums">共%1$s件商品</string>
+    <string name="button_order_shipprice">运费：%1$s</string>
+    <string name="button_order_totalprice">总价：%1$s</string>
+    
+    <string name="button_order_paycontinue_hint">确定要继续支付么？</string>
+    <string name="button_order_close_hint">确定要关闭订单么？</string>
+    <string name="button_order_cancel_hint">确定要取消订单么？</string>
+     <string name="button_order_return_hint">确定要申请退款么？</string>
+     <string name="button_order_hurry_hint">确定要催促发货么？</string>
+     <string name="button_order_confirm_hint">确认要收货么？</string>
+     <string name="order_msssage_title">订单消息</string>
+     <string name="order_msssage_paysuccess">订单已经支付成功,订单号为:%1$s</string>
+     <string name="order_msssage_cancel">订单已经取消,订单号为:%1$s</string>
+     <string name="order_msssage_close">订单已经取消,订单号为:%1$s</string>
+     <string name="order_msssage_return">申请退款成功,订单号为:%1$s</string>
+    
+    <!-- personnal info -->
+     <string name="info_name">收货人姓名：</string>
+     <string name="info_phone">联系电话：</string>
+     <string name="info_email">邮箱：</string>
+     <string name="info_idnumber">收货地址：</string>
+     <string name="delete">清空</string>
+     <string name="delete_hint">确定要删除么？</string>
+      <string name="delete_hint_1">确定要清空么？</string>
+       <string name="info_address">地址管理</string>
+      <!-- OrderDetail -->
+     <string name="orderdetail_title">订单详情</string>
+     <string name="order_ensure_send_way">支付方式:</string>
+     <string name="order_create_time">下单时间:</string>
+     <string name="orderdetail_number">订单号:</string>
+     <string name="orderdetail_price">单价：￥%1$s</string>
+     <string name="orderdetail_cost">小计：￥%1$s</string>
+     <string name="orderdetail_quantity">数量：%1$s</string>
+     <string name="orderdetail_weight">称重：%1$s</string>
+     <string name="orderdetail_call">有问题，找客服。</string>
+     <string name="orderdetail_pickup">自提点：%1$s</string>
+     <string name="orderdetail_hint">您有新的订单，订单号为：%1$s.</string>
+    
+     <!-- 消息 -->
+     <string name="msg_title_system">系统消息</string>
+     <string name="msg_title_order">订单消息</string>
+     <!-- 分享 -->
+    <integer name="app_version_code">3</integer>
+    <string name="app_version">1.0.2</string>
+    <string name="proj_name">ShareSDK Socialization</string>
+    <string name="sm_item_comment_like">评论与赞</string>
+    <string name="share_content">ShareSDK for Android不仅集成简单、支持如QQ好友、微信、新浪微博、腾讯微博等所有社交平台，而且还有强大的统计分析管理后台，实时了解用户、信息流、回流率、传播效应等数据，详情见官网http://mob.com @ShareSDK</string>
+	<string name="share_content_short">ShareSDK不仅集成简单、支持如微信、新浪微博、腾讯微博等社交平台，而且还有强大的统计分析管理后台，实时了解用户、信息流、回流率、传播效应等数据，详情见官网http://mob.com @ShareSDK</string>
+	<string name="comment_like_id">ssdk20131220190000</string>
+	<string name="comment_like_title">ShareSDK“评论与赞”模块发布</string>
+	<string name="comment_like_publich_time">2013-12-20 19:00</string>
+	<string name="comment_like_author">ShareSDK</string>
+	<string name="comment_like_comment_list">跟帖</string>
+	<string name="like_success">点赞成功</string>
+	<string name="like_fail">点赞失败</string>
+	<string name="myplatform">自定义平台</string>
+    <string name="sharing">分享操作正在后台进行…</string>
+    <string name="share_to">分享到</string>
+	<string name="share">分享</string>
+	<string name="multi_share">图文分享</string>
+	<string name="share_completed">分享成功</string>
+	<string name="share_canceled">分享已取消</string>
+	<string name="select_one_plat_at_least">请选择一个目标平台</string>
+	<string name="list_friends">%s的朋友</string>
+	<string name="share_failed">分享失败</string>
+	<string name="pull_to_refresh">下拉刷新</string>
+	<string name="release_to_refresh">松开刷新</string>
+	<string name="refreshing">刷新中…</string>
+	<string name="shake2share">摇晃手机！</string>
+	<string name="select_a_friend">请选择一个朋友</string>
+	
+	<string name="off_shelf_prompt_1">商品已下架</string>
+	
+	<string name="tab_home">首页</string>
+	<string name="tab_store">超市</string>
+	<string name="tab_express">快递</string>
+	<string name="tab_me">我</string>
+	<string name="tab_chef">购物车</string>
+	
+	<string name="goods_kind_promotion">促销</string>
+	<string name="goods_kind_goods_style_all">全部</string>
+	<string name="tab_fragmen_store_switch">切换</string>
+
+	<!-- 支付相关 -->
+	<string name="pay_type_title">支付方式</string>
+	 <string-array name="pay_types">
+        <item>支付宝支付</item>
+        <item>微信支付</item>
+    </string-array>
+    <string name="app_back">返回</string>
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_continue">继续</string>
+    <string name="app_tip">提示</string>
+    <string name="app_send">发送</string>
+    <string name="app_set">设置</string>
+    <string name="app_save">保存</string>
+    <string name="app_delete">删除</string>
+    <string name="app_nextstep">下一步</string>
+    <string name="app_prevstep">上一步</string>
+    <string name="app_finish">完成</string>
+    <string name="app_find">查找</string>
+    <string name="app_edit">编辑</string>
+
+    <!-- applet -->
+    <string name="applet_secimg_title">填写验证码</string>
+    <string name="applet_secimg_change">换一张图片</string>
+    <string name="applet_seccode_tip">验证码不能为空</string>
+    <string name="applet_seccode_fail_tip">验证码错误，请重新输入</string>
+
+    <!-- verify -->
+    <string name="verify_password_null_tip">密码不能为空，请输入密码</string>
+
+    <!-- format -->
+    <string name="fmt_date">M月d日</string>
+    <string name="fmt_longdate">yyyy年M月d日</string>
+    <string name="fmt_datetime" formatted="false">M月d日 %skk:mm</string>
+    <string name="fmt_patime">kk:mm</string>
+    <string name="fmt_longtime" formatted="false">yyyy年M月d日 %skk:mm</string>
+    <string name="fmt_in60min" formatted="false">%d分钟前</string>
+    <string name="fmt_justnow">1分钟内</string>
+    <string name="fmt_dawn">凌晨</string>
+    <string name="fmt_morning">早上</string>
+    <string name="fmt_noon">中午</string>
+    <string name="fmt_afternoon">下午</string>
+    <string name="fmt_evening">晚上</string>
+    <string name="fmt_pre_yesterday">昨天</string>
+    <string name="fmt_iap_err" formatted="false">网络连接不可用，请稍候重试</string>
+
+	
+	<string name="developping">功能即将上线，请期待!</string>
+
+    
+    <string name="hello">Hello World, SDKSampleActivity!</string>
+	<string name="app_share">分享</string>
+    
+    <string name="enter">这是SDK_Sample的入口界面</string>
+    <string name="reg">将该app注册到微信</string>
+    <string name="goto_send">跳转到发消息界面</string>
+    <string name="goto_pay">跳转到支付界面</string>
+    <string name="goto_fav">跳转到收藏界面</string>
+    <string name="launch_wx">启动微信</string>
+    <string name="check_timeline_supported">检查是否支持发送到朋友圈</string>
+    
+    <string name="send_to_wx_title">发送到微信</string>
+	<string name="get_from_wx_title">从微信接收</string>
+	<string name="show_from_wx_title">显示微信请求的消息</string>
+	<string name="pay_by_wx_title">通过微信支付</string>
+	
+	<string name="errcode_success">发送成功</string>
+	<string name="errcode_cancel">发送取消</string>
+	<string name="errcode_deny">发送被拒绝</string>
+	<string name="errcode_unknown">发送返回</string>
+	
+	<string name="launch_from_wx">Launch From Weixin</string>
+	
+    <!-- WXMediaMessage -->
+	<string name="input_openid">输入openid</string>
+	<string name="input_scope">输入scope</string>
+	
+	<string name="send">发送到微信</string>
+	<string name="receive">从微信接收</string>
+	
+	<string name="is_timeline">是否分享到朋友圈</string>
+	<string name="send_text">发送文本</string>
+	<string name="send_text_default">这段文字发送自微信SDK示例程序</string>
+	
+	<string name="send_img">发送图片</string>
+	<string-array name="send_img_item">
+        <item>发送图片的二进制数据</item>
+        <item>发送图片的本地路径</item>
+        <item>发送图片的URL</item>
+    </string-array>
+	<string name="send_img_file_not_exist">文件不存在</string>
+	
+	<string name="send_file">发送文件</string>
+	<string-array name="send_file_item">
+        <item>发送文件的二进制数据</item>
+        <item>发送文件的本地路径</item>
+    </string-array>
+    <string name="send_file_file_not_exist">文件不存在</string>
+	
+	<string name="send_pic">发送照片</string>
+	
+	<string name="send_music">发送音乐</string>
+	<string-array name="send_music_item">
+	    <item>发送音乐url</item>
+	    <item>发送低带宽音乐url</item>
+	</string-array>
+
+	<string name="send_video">发送视频</string>
+	<string-array name="send_video_item">
+	    <item>发送视频url</item>
+	    <item>发送低带宽视频url</item>
+	</string-array>
+	
+	<string name="send_webpage">发送网页</string>
+	<string-array name="send_webpage_item">
+	    <item>发送网页url</item>
+	</string-array>
+
+	<string name="send_appdata">发送app消息</string>
+	<string-array name="send_appdata_item">
+	    <item>发送app文件本地路径</item>
+	    <item>发送app二进制数据</item>
+	    <item>发送无附件的app</item>
+	</string-array>
+	
+	<string name="send_emoji">发送表情消息</string>
+	<string-array name="send_emoji_item">
+	    <item>发送表情本地路径</item>
+	    <item>发送表情二进制数据</item>
+	</string-array>
+	
+	<string-array name="send_emoji_item_format">
+	    <item>发送GIF图片</item>
+	    <item>发送非GIF图片</item>
+	</string-array>
+	
+	<!-- GetFromWXActivity -->
+    <string name="share_text_to_weixin">回应文本到微信</string>
+    <string name="share_text_default">这段文字回应自微信SDK示例程序</string>
+    <string name="share_url_to_weixin">回应URL到微信</string>
+    <string name="share_pic_to_weixin">回应图片到微信</string>
+    <string name="share_music_to_weixin">回应音乐到微信</string>
+    <string name="share_video_to_weixin">回应视频到微信</string>
+    <string name="share_appdata_to_weixin">回应app消息到微信</string>
+    
+    <string name="register_as_weixin_app_sender">注册微信事件发送器</string>
+    <string name="get_token_from_weixin">获取微信访问Token</string>
+    <string name="unregister_from_weixin">从微信反注册</string>
+    
+    <string name="show_from_wx_tip">这个界面用于显示微信向第三方app请求显示的信息</string>
+    
+	<!-- PayActivity -->
+	<string name="pay_by_wx">客户端签名微信支付</string>
+	<string name="pay_by_wxap">服务器端签名微信支付</string>
+	<string name="check_pay">检查微信版本是否支持支付</string>
+	<string name="input_reqkey">输入reqkey</string>
+	<string name="input_package_value">输入package value</string>
+	<string name="input_sign">输入sign</string>
+	<string name="getting_access_token">正在获取access token...</string>
+	<string name="get_access_token_succ">获取access token成功</string>
+	<string name="get_access_token_fail" formatted="false">获取access token失败，原因%s</string>
+	<string name="getting_prepayid">正在获取预支付订单...</string>
+	<string name="paying">支付中</string>
+	<string name="get_prepayid_succ">获取prepayid成功</string>
+	<string name="get_prepayid_fail" formatted="false">获取prepayid失败，原因%s</string>
+    
+	<!-- WXPayEntryActivity -->
+	<string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+	<string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+	
+	<string name="shopping_cart_freight_prompt">满%1$s元免运费</string>
+	<string name="shopping_cart_price_yuan">元</string>
+	
+	<string name="delete_shopping_cart_prompt">要删除该商品吗？</string>
+	
+	<string name="store_top_open_time_prompt">超市营业时间 ：%1$s - %2$s</string>
+	
+	<string name="notice_dialog_title_notice">小店公告</string>
+	<string name="notice_dialog_close">关闭</string>
+	
+	<string name="shopping_cart_choose_sold_out_goods">您选择的商品有的已经售罄了~</string>
+	
+	<string name="pay_method_choose">选择支付方式</string>
+	<string name="pay_method_alipay">支付宝支付</string>
+	<string name="pay_method_wechatpay">微信支付</string>
+	
+	<string name="switch_area_prompt_title">提示</string>
+	<string name="switch_area_prompt_contnet">切换小区将清空购物车</string>
+	
+	<string name="express_tab_daiqu">待取件</string>
+	<string name="express_tab_yiqu">已取件</string>
+	<string name="express_tab_daiqu_prompt">您还没有需要取的包裹</string>
+	<string name="express_tab_yiqu_prompt">您还没有取过包裹</string>
+	<string name="express_tab_baoguo">包裹</string>
+	<string name="express_tab_tihuo_code">提货码：</string>
+	<string name="express_tab_daozhan_days">到站天数：</string>
+	<string name="express_tab_qujian_time">取件时间：</string>
+	<string name="express_tab_btn_qujian">我已取件</string>
+	<string name="express_tab_address">地址：</string>
+	<string name="express_tab_phone">电话：</string>
+	<string name="express_tab_store_time">营业时间：</string>
+	<string name="express_tab_daozhan_time">%1$d月%2$d号</string>
+	<string name="express_tab_save_successful">操作成功</string>
+	<string name="express_tab_save_failed">操作失败</string>
+	<string name="express_tab_qujian_sure">确认已取件？</string>
+	<string name="express_tab_qujian_done">我已取件</string>
+	
+	<string name="tab_fragment_store_prompt_no_store">超市规划中...</string>
+	<string name="tab_fragment_store_prompt_wait_for_open">超市开业准备中，敬请期待！</string>
+    
 </resources>
