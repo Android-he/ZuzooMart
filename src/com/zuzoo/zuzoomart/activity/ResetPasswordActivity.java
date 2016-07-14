@@ -3,6 +3,10 @@ package com.zuzoo.zuzoomart.activity;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.avos.avoscloud.AVException;
+import com.avos.avoscloud.AVUser;
+import com.avos.avoscloud.RequestMobileCodeCallback;
+import com.avos.avoscloud.UpdatePasswordCallback;
 import com.zuzoo.zuzoomart.R;
 
 import android.app.Activity;
@@ -61,23 +65,55 @@ public class ResetPasswordActivity extends Activity implements OnClickListener {
 	private void getCode() {
 		if (phone_reset.getText().toString().equals("")) {
 			Toast.makeText(getApplicationContext(), "请输入手机号", Toast.LENGTH_SHORT).show();
-		}else if(!isMobile(phone_reset.getText().toString())){
+		} else if (!isMobile(phone_reset.getText().toString())) {
 			Toast.makeText(getApplicationContext(), "请输入正确手机号", Toast.LENGTH_SHORT).show();
-		}else{
+		} else {
 			phone = phone_reset.getText().toString();
+			AVUser.requestPasswordResetBySmsCodeInBackground(phone, new RequestMobileCodeCallback() {
+				@Override
+				public void done(AVException e) {
+					if (e == null) {
+						Toast.makeText(getApplicationContext(), "短信已发送，请注意查收~", Toast.LENGTH_SHORT).show();
+					} else {
+						e.printStackTrace();
+					}
+				}
+			});
 		}
 	}
 
 	private void submit() {
 		if (new_pwd.getText().toString().equals("") || pwd_twice.getText().toString().equals("")) {
 			Toast.makeText(getApplicationContext(), "请输入密码", Toast.LENGTH_SHORT).show();
-		}else{
+		} else if (get_code.getText().toString().equals("")) {
+			Toast.makeText(getApplicationContext(), "请输入验证码", Toast.LENGTH_SHORT).show();
+		} else {
 			pwd1 = new_pwd.getText().toString();
 			pwd2 = pwd_twice.getText().toString();
+			if (pwd1 != pwd2) {
+				Toast.makeText(getApplicationContext(), "两次密码输入不一致，请重新输入", Toast.LENGTH_SHORT).show();
+				new_pwd.setText("");
+				pwd_twice.setText("");
+			} else {
+				 AVUser.resetPasswordBySmsCodeInBackground(get_code.getText().toString(), pwd1, new UpdatePasswordCallback() {
+			            @Override
+			            public void done(AVException e) {
+			                if (e == null) {
+									Toast.makeText(getApplicationContext(), "密码已重置", Toast.LENGTH_SHORT)
+											.show();
+
+			                } else {
+			                    e.printStackTrace();
+			                }
+			            }
+			        });
+			}
 		}
 	}
+
 	public static boolean isMobile(String str) {
-		Pattern pattern = Pattern.compile("^((13[0-9])|(15[^4,\\D])|(14[75])|(178)|(17[678])|(1349)|(170[059])|(18[0-9]))\\d{8}$");
+		Pattern pattern = Pattern
+				.compile("^((13[0-9])|(15[^4,\\D])|(14[75])|(178)|(17[678])|(1349)|(170[059])|(18[0-9]))\\d{8}$");
 		Matcher matcher = pattern.matcher(str);
 		if (matcher.matches()) {
 			return true;

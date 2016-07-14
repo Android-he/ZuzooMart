@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sas_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/sas_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="倒计时：02:01:01" />
+
+        <TextView
+            android:id="@+id/sas_surplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="aaaaaa" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/sas_productimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/xiaomi"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/sas_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafafa"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/sas_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="小米手机"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/sas_tv_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="快、轻薄、完美，青春五色可选"
+            android:textColor="#cec9c6"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/sas_tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="0.99元"
+            android:textColor="#fbbbb2"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

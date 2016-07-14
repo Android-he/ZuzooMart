@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_newproduct"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/img_newproduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xiaomi" 
+        android:scaleType="fitStart"
+        />
+
+    <TextView
+        android:id="@+id/tv_newproductname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iphone 6s"
+        android:textColor="#c3946e"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_newproductprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥ 559.0"
+            android:textColor="#a96557"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="起"
+            android:layout_marginLeft="5dp"
+            android:textColor="#b0b0b0"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
