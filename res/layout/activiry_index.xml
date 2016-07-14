@@ -4,6 +4,10 @@
     android:layout_height="match_parent"
     android:background="#E8E2E4"
     android:orientation="vertical" >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/toolbar_main" />
 
     <FrameLayout
         android:id="@+id/fl_activity_main"
@@ -12,95 +16,74 @@
         android:layout_weight="1" >
     </FrameLayout>
 
-    <LinearLayout
-        android:layout_width="fill_parent"
+   <RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    >
+    <RadioGroup
+        android:id="@+id/rg_activity_main"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp">
+        android:orientation="horizontal" >
 
-        <LinearLayout
-            android:id="@+id/ll_home_page"
+        <RadioButton
+            android:id="@+id/rb_home"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_weight="1"
-            android:orientation="vertical" >
+            android:button="@null"
+            android:drawableTop="@drawable/selecor_tab_home"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_activity_main_bottom"
+            android:paddingTop="@dimen/padding_activity_main_bottom"
+            android:text="首页"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ts_activity_main_bottom" />
 
-            <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:background="@drawable/ic_home" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/tab_home" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/ll_category"
+        <RadioButton
+            android:id="@+id/rb_category"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_weight="1"
-            android:orientation="vertical" >
+            android:button="@null"
+            android:drawableTop="@drawable/selector_tab_catgory"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_activity_main_bottom"
+            android:paddingTop="@dimen/padding_activity_main_bottom"
+            android:text="分类"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ts_activity_main_bottom" />
 
-            <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:background="@drawable/ic_category" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/goods_list_category" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/ll_favor"
+        <RadioButton
+            android:id="@+id/rb_favor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_weight="1"
-            android:orientation="vertical" >
-
-            <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:background="@drawable/ic_favor" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/favor" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/ll_person_center"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_tab_favor"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_activity_main_bottom"
+            android:paddingTop="@dimen/padding_activity_main_bottom"
+            android:text="收藏"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ts_activity_main_bottom" />
+        <RadioButton
+            android:id="@+id/rb_person_center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|center_vertical"
             android:layout_weight="1"
-            android:orientation="vertical" >
-
-            <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:background="@drawable/ic_person" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/person_center" />
-        </LinearLayout>
-    </LinearLayout>
-
+            android:button="@null"
+            android:drawableTop="@drawable/selector_tab_person"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_activity_main_bottom"
+            android:paddingTop="@dimen/padding_activity_main_bottom"
+            android:text="个人中心"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ts_activity_main_bottom" />
+    </RadioGroup>
+</RelativeLayout>
 </LinearLayout>

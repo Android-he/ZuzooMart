@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_middle"
+    android:orientation="vertical" >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/toolbar" />
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="请输入您接收到的验证码"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+    
+ <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_register_code"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_edittext_bg"
+                android:gravity="center_vertical|left"
+                android:hint="@string/code"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_get_code"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/shape_btn_bg"
+                android:padding="10dp"
+                android:text="@string/get_code"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/et_register_passwd"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edittext_bg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:inputType="textPassword"
+            android:hint="设置密码"/>
+        <CheckBox
+            android:id="@+id/cb_see_pwd"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:button="@null"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_see_pwd"/>
+        </LinearLayout>
+         <Button
+            android:id="@+id/btn_register_finish"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_btn_bg"
+            android:text="@string/finish"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
