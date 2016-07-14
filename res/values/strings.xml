@@ -98,12 +98,14 @@
     <string name="menu_order">我的订单</string>
     <string name="menu_message">我的消息</string>
     <string name="menu_fav">我的收藏</string>
+    <string name="favor">收藏</string>
     <string name="menu_comment">评价和反馈</string>
     <string name="menu_setting">设置</string>
     <string name="menu_address">地址管理</string>
     <string name="menu_address_add">地址添加</string>
     <string name="menu_address_edit">地址编辑</string>
     <string name="menu_myinfo">我的账号</string>
+    <string name="person_center">个人中心</string>
 
     <!-- 设置 -->
     <string name="settings_title">设置</string>
@@ -149,6 +151,10 @@
     <string name="noMsgHint">暂没收到消息</string>
     <string name="noOrderListHint">暂无相关订单</string>
     
+    <!-- index -->
+     <string name="zone_quick_buy">抢购专区</string>
+     <string name="zone_new_products">新品推荐</string>
+     <string name="zone_hot_sell">热销商品</string>
     <!-- detail -->
     <string name="detailtitle">商品详情</string>
     <string name="detailaddresstitle">当前位置：</string>
