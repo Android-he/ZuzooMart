@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/rg_category"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rb_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="手机"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/gray_middle" />
+
+                <RadioButton
+                    android:id="@+id/rb_ipad"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="平板"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/gray_middle" />
+
+                <RadioButton
+                    android:id="@+id/rb_pc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="电脑"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:textSize="18sp" />
+                 <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                     android:background="@color/gray_middle"/>
+            </RadioGroup>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/lv_goods_category"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:scrollbars="none"/>
+    </LinearLayout>
+
+</LinearLayout>
